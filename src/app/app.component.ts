@@ -11,8 +11,6 @@ import{ArtistComponent} from './components/artist/artist.component';
   templateUrl: `app.component.html`,
   entryComponents:[SearchComponent,AboutComponent],
   providers:[SpotifyService]
-
-
 })
 
 export class AppComponent { }

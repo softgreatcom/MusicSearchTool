@@ -16,13 +16,12 @@ const routes:Routes=[
   {path:'about',component:AboutComponent},
   {path:'artist/:id',component:ArtistComponent},
   {path:'album/:id',component:AlbumComponent}
-
 ]
 
 @NgModule({
   imports:      [ BrowserModule,FormsModule, HttpModule, RouterModule.forRoot(routes) ],
   declarations: [AlbumComponent, ArtistComponent,AppComponent ,NavbarComponent,AboutComponent,SearchComponent],
   bootstrap:    [ AppComponent ]
-  
+
 })
 export class AppModule { }
